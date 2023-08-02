@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "esbuild": "^0.18.17",
+    "nanoid": "^3.3.6",
+    "picocolors": "^1.0.0",
+    "postcss": "^8.4.27",
+    "rollup": "^3.27.0",
+    "source-map-js": "^1.0.2",
+    "vite": "^4.4.7"
+  },
+  "devDependencies": {
+    "chalk": "2.4.2",
+    "commander": "^11.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy": "node src/script/cli"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
